@@ -1,0 +1,20 @@
+{
+  "name": "lectia-15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "startnode": "node js/main.js",
+    "dev": "nodemon js/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "lodash": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
