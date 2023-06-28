@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <input type="text" name="news" placeholder="Search news" />
+      <input type="submit" value="Search" />
+    </form>
+    <div id="articlesWrapper"></div>
+
+    <button type="button" id="loadMoreBtn" disabled>Load more</button>
+
+    <select
+      onchange="showBreedImage(value)"
+      name="breed_selector"
+      id="breed_selector"
+    ></select>
+
+    <div>
+      <a id="wiki_link" target="_blank"></a>
+      <div id="breed_json"></div>
+    </div>
+
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>
